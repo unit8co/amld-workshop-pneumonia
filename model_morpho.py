@@ -1,4 +1,4 @@
-def plot_confusion_matrix_2(cm,
+def plot_confusion_matrix(cm,
                           target_names,
                           title='Confusion matrix',
                           cmap=None,
