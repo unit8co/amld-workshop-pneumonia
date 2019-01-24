@@ -13,4 +13,6 @@ build
 dist
 
 data
-graphs_images
+model
+archive
+Graph
