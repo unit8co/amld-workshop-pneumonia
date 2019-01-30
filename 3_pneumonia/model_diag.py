@@ -1,3 +1,26 @@
+def plot_learning_curves(history):
+    import matplotlib.pyplot as plt
+    
+    plt.figure(figsize=(12,4))
+    
+    plt.subplot(1,2,1)
+    plt.plot(history.history['loss'])
+    plt.plot(history.history['val_loss'])
+    plt.title('model loss')
+    plt.ylabel('loss')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'val'], loc='upper left')
+    
+    plt.subplot(1,2,2)
+    plt.plot(history.history['acc'])
+    plt.plot(history.history['val_acc'])
+    plt.title('model accuracy')
+    plt.ylabel('accuracy')
+    plt.xlabel('epoch')
+    plt.legend(['train', 'val'], loc='upper left')
+    
+    plt.tight_layout()
+
 def plot_confusion_matrix(cm,
                           target_names,
                           title='Confusion matrix',
