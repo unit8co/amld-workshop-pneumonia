@@ -4,8 +4,8 @@
 
 This repo contains notebooks/data that were using during workshop at Applied Machine Learning Days in Lausanne, split into two branches:
 
-* master -> actual notebooks with excerciess that were presented during 
-* feature/notebook_with_outputs -> completed notebook with sample output and all the blank fields filled for you! 
+* master -> completed notebook with sample output and all the blank fields filled for you! 
+* feature/notebooks-with-exercises -> actual notebooks with excerciess that were presented during 
 
 ### How to run
 
