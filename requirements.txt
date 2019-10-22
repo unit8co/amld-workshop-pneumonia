@@ -21,7 +21,7 @@ numpy==1.14.5
 numpydoc==0.8.0
 opencv-python==4.0.0.21
 pandas==0.22.0
-Pillow==5.2.0
+Pillow==6.2.0
 plotly==2.7.0
 pycurl==7.43.0.1
 requests==2.20.0
